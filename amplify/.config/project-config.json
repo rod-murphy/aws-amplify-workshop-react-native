@@ -1,0 +1,20 @@
+{
+    "projectName": "AmplifyApp",
+    "projectPath": "/Users/rodmurphy/code/aws-amplify-workshop-react-native/AmplifyApp",
+    "defaultEditor": "vim",
+    "frontendHandler": {
+        "javascript": "/Users/rodmurphy/.nodenv/versions/8.9.1/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react-native",
+        "config": {
+            "SourceDir": "/",
+            "DistributionDir": "/",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/Users/rodmurphy/.nodenv/versions/8.9.1/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}
